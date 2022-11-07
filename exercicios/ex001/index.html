@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="iconpk.ico" type="image/x-icon">
+    <title>Meu primeiro exercício</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<main>
+    <h1>Olá, mundo!</h1>
+    <p>Esse é o meu primeiro documento HTML! Estou muito feliz!</p>
+    <p>Este é um momento único! Estou criando um site!</p>
+
+    
+    
+    <h1>Parágrafos e quebras de linhas</h1>
+    <hr>
+    <p>Você pode escrever um parágrafo de qualquer jeito, basta colocar tudo no meio do par de tags &lt;p&gt; e &lt;/p&gt;.</p>
+    <p>Se precisar quebrar o texto em algum lugar específico <br> como esse, Você pode usar a tag &lt;br&gt;.</p>
+    <p>Vamos adicionar alguns símbolos especiais:
+        &reg; &copy; &trade; &euro; &pound; &yen; &cent; &Delta;
+    </p>
+    <p>Vamos adicionar alguns emoji:
+        &#x1F596; &#x1F913;
+    </p>
+    <hr>
+
+    <div class="flex-container">
+    <h1>Teste com imagens</h1>
+    <p>Testando carga de imagens.</p>
+    <p>Abaixo você vai ver uma imagem que está na mesma pasta.</p>
+
+    <img src="imagens/logocss200.png" alt="">
+
+    <p>Podemos também carregar imagens que estão em subpastas</p>
+    <img src="imagens/logohtml200.png" alt="">
+
+    <p>Também podemos carregar imagens externas</p>
+    <img src="https://a.thumbs.redditmedia.com/zDOFJTXd6fmlD58VDGypiV94Leflz11woxmgbGY6p_4.png" alt="Logo Java Script">
+    <hr>
+    </div>
+
+    <hr>
+    <h1>Teste de favcon</h1>
+    <p>O favcon fica no head, exemplo: &lt;link rel="shortcut icon" href="" type="image/x-icon"&gt;</p>
+    <hr>
+
+    <h1>Hierarquia de títulos</h1>
+    <br>
+    <h1>Entendendo Portugal</h1>
+    <h2>Introdução</h2>
+    <h3>Justificativa da Temática</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Modi possimus accusantium exercitationem, sit consectetur reprehenderit, rem aliquid minus deserunt et asperiores dolore <br>quas, culpa delectus minima nobis! Nobis, expedita reiciendis.</p>
+
+    <h3>Caráter execional</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Sapiente nihil mollitia tempore tempora, expedita atque harum molestiae ipsum voluptate dolor perspiciatis modi dolorem debitis<br>animi quibusdam consequatur. Facere, saepe dignissimos.
+    </p>
+
+    <h3>Perguntas de partida</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Non velit iure eius, facere autem, nemo inventore possimus animi architecto laborum in nobis voluptatum quisquam error sapiente ipsum facilis harum et.</p>
+
+    <h3>Metodologia de investigação</h3>
+    <h4>Etapas de investigação</h4>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Ratione enim ex et, consectetur consequuntur voluptate assumenda inventore cum tempore ea aspernatur perspiciatis sunt incidunt<br> repudiandae eum quibusdam ducimus optio. Eveniet!</p>
+    
+    <h4>Instrumentos de análise</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Exercitationem voluptatibus eos voluptates qui quam? Autem reprehenderit asperiores accusamus officiis nobis!<br> Quidem debitis, dicta quibusdam suscipit laboriosam magnam? Non, suscipit pariatur.</p>
+
+    <h2>Ordenamento do Território de Portugal</h2>
+    <h3>Os interumentos de gestão</h3>
+    <h2></h2>
+
+    <h1>Exemplo de semântica</h1>
+    <p>Eu moro na rua <address>Rua dos Capixabas, 229 - Botafogo - RJ</address></p>
+
+    <h1>Formatação de textos</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nesta frase, temos um <b>termo em negrito</b> usando a tag B (não semântica).</p>
+    <p>Nesta frase, temos um <strong>termo em destaque</strong> usando a tag STRONG (semântica).</p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag I (não semântica).</p>
+    <p>Nesta frase, temos um <em>termo em ênfase</em> usando a tag EM (semântica)</p>
+    <h2>Texto marcado</h2>
+    <p>Podemos criar também <mark>um texto marcado</mark> usando a tag MARK.</p>
+    <h2>Texto grande e pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> e um <small>texto pequeno</small> nesse parágrafo.</p>
+    <h2>Texto deletado</h2>
+    <p>Podemos marcar <del>um texto como excluído</del> para indicar que ele deve ser lido, mas não considerado.</p>
+    <h2>Texto inserido</h2>
+    <p>Podemos marcar <ins>um texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p>
+    <p>Existe também o <u>sublinhado</u>, com a tag U (não semântica)</p>
+    <h2>Texto sobrescrito</h2>
+    <p>Para inserir coisas do tipo x<sup>20</sup>+3</p>
+    <h2>Texto subscrito</h2>
+    <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte / Pré-formatação</h2>
+    <p>O comando <code>document.getElementById('teste') </code> é escrito em linguagem JavaScript</p>
+    <pre>
+        <code>
+num = int (input('Digite um número'))
+if num % 2 == 0:
+    print(f'O número {num} é PAR')
+else:
+    print(f'O número {num} é ÍMPAR')
+print('Fim do programa')
+        </code>
+    </pre>
+
+    <h2>Citações simples</h2>
+    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido</q>.</p>
+    <h2>Citações completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <blockquote cite="link da págia do autor">
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote>
+
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hyper Texr Markup Language">HTML</abbr> e <abbr title="Cascade Style Sheets">CSS</abbr>. Estou adorando!</p>
+    <h2>Texto invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+    <hr>
+
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas</h2>
+    <ol>
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+    </ol>
+
+    <ol type="1"> <!--tem os types: 1 A a I i-->
+        <li>Se arrumar</li>
+        <li>Ir para o trabalgo</li>
+        <li>Almoçar</li>
+        <li>Voltar do Trabalhano</li>
+        <li>Fazer a janta</li>
+    </ol>
+
+    <h2>Listas não ordenadas</h2>
+    <ul>
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+
+    <ul type="circle"> <!--disc circle square-->
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    
+    <h2>Meus jogos favoritos</h2>
+    <ol>
+        <li>SNES</li>
+        <ul type="square">
+            <li>Super Mario</li>
+            <li>Donkey Kong</li>
+            <li>Zelda</li>
+            <li>Hearthbound</li>
+        </ul>
+        <li>PS2</li>
+        <ul type="square">
+            <li>GTA San Andreas</li>
+            <li>God of War</li>
+            <ul type="circle">
+                <li>God of War</li>
+                <li>God of War 2</li>
+                <li>God of War 3</li>
+            </ul>
+            <li>Mid Night Club</li>
+            <li>Final Fantasy</li>
+        </ul>
+        <li>Master System</li>
+        <ul type="square">
+            <li>Alex Kid</li>
+            <li>Wonder Boy</li>
+            <li>Sonic</li>
+            <li>Fantasy Zone</li>
+        </ul>
+    </ol>
+
+    <h2>Lista de definições</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para a criação do conteúdo de um site</dd>
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criação de interface de um site</dd>
+    </dl>
+    <hr>
+
+    <h1>Usando links externos</h1>
+    <p>Você pode acessar o meu <a href="https://app.circleci.com/pipelines/github/ptckcs" target="_blank" rel="external">repositório público no GitHub</a></p>
+    <p>Você também pode acessar meu <a href="https://www.instagram.com/pktechmanutencao/">instagram</a></p>
+
+    <h2>Usando links internos</h2>
+    <p>Está é a primeira página do site, se você quiser, pode acessar também a minha <a href="pag002.html" rel="next">Segunda página</a></p>
+    <p>Você também pode acessar nossa <a href="pag003.html" rel="next">terceira pagina</a></p>
+
+    <h1>Links para download</h1>
+    <ul>
+        <li><a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Baixar o livro em PDF</a></li>
+        <li><a href="livro/meulivro.zip" download="meulivro.zip" type="application/zip">Livro Compactado em ZIP</a></li>
+    </ul>
+    <hr>
+
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplismente diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/M.png" type="image/png">
+        <img src="imagens/G.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo áudio</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5.</p>
+    <audio src="musicas/Alien1963 - Ramzoid.mp3" controls autoplay></audio>
+    <!--MP3 WAV OGG-->
+
+    <audio preload="metadata" autoplay controls>
+        <source src="musicas/Alien1963 - Ramzoid.mp3" type="audio/mpeg">
+        <source src="musicas/Alien1963 - Ramzoid.ogg" type="audio/ogg">
+        <source src="musicas/Alien1963 - Ramzoid.wav" type="audio/wav"> <!--arquivos WAV são arquivos grandes-->
+        <p>Infelizmente seu navegador não consegue reproduzir áudio. <a href="musicas/Alien1963 - Ramzoid.mp3">Clique aqui para baixar o arquivo MP3.</a></p>
+    </audio>
+
+    <h1>Inserindo vídeo hospedados localmente</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video width="560" poster="" controls autoplay loop>
+        <source src="videos/carros.mp4" type="">
+        <source src="videos/Carros.m4v" type="">
+        <source src="videos/Carros.webm" type="">
+        <p>Seu navegador não compatibilidade com reprodução de vídeo.</p>
+    </video>
+
+    <h1>Inserindo vídeo do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/m7p0C9VJu6Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <p><a href="pag004.html" target="_self">Ir para a página 4</a></p>
+
+    <h1>Cores</h1>
+    <p>Clique <a href="pag005.html" target="_self">aqui</a> para ser direcionado a um estudo básico das cores</p>
+    <p>clique <a href="pag006.html" target="_self">aqui</a> para ir para a página de exemplos de gradiente</p>
+</main>
+
+</body>
+</html>
