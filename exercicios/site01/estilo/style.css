@@ -84,6 +84,51 @@ nav > a:hover {
     background-color: var(--cor3);
 }
 
+.dp-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dp-menu ul {
+    background-color: black;
+}
+
+.dp-menu ul li {
+    display:inline-block;
+    position: relative;
+}
+
+.dp-menu ul li > a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.dp-menu ul li a:hover {
+    background-color: rosybrown;
+}
+
+/*submenu*/
+
+.dp-menu ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+}
+
+.dp-menu ul ul {
+    width: 150px
+}
+
+.dp-menu ul ul li a {
+    display: block;
+}
+
 main {
     background-color: white;
     min-width: 300px;
